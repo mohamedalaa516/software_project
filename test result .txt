@@ -1,0 +1,14 @@
+---- Test 1: Successful login ----
+Login successful, status: ACTIVE
+
+---- Test 2: Failed login attempts ----
+Attempt 1: Invalid credentials
+Attempt 2: Invalid credentials
+Attempt 3: Invalid credentials
+Attempt 4: Invalid credentials
+Attempt 5: Invalid credentials
+User status after failed attempts: LOCKED
+Failed attempts: 5
+
+---- Test 3: Reset password ----
+Exception in thread "main" java.lang.RuntimeException: Account locked
