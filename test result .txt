@@ -9,6 +9,3 @@ Attempt 4: Invalid credentials
 Attempt 5: Invalid credentials
 User status after failed attempts: LOCKED
 Failed attempts: 5
-
----- Test 3: Reset password ----
-Exception in thread "main" java.lang.RuntimeException: Account locked
